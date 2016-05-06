@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "572B57541C76E99D00CD7F67"
+               BuildableName = "SwitfDemo1.app"
+               BlueprintName = "SwitfDemo1"
+               ReferencedContainer = "container:SwitfDemo1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "572B57681C76E99D00CD7F67"
+               BuildableName = "SwitfDemo1Tests.xctest"
+               BlueprintName = "SwitfDemo1Tests"
+               ReferencedContainer = "container:SwitfDemo1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "572B57731C76E99D00CD7F67"
+               BuildableName = "SwitfDemo1UITests.xctest"
+               BlueprintName = "SwitfDemo1UITests"
+               ReferencedContainer = "container:SwitfDemo1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "572B57541C76E99D00CD7F67"
+            BuildableName = "SwitfDemo1.app"
+            BlueprintName = "SwitfDemo1"
+            ReferencedContainer = "container:SwitfDemo1.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "572B57541C76E99D00CD7F67"
+            BuildableName = "SwitfDemo1.app"
+            BlueprintName = "SwitfDemo1"
+            ReferencedContainer = "container:SwitfDemo1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "572B57541C76E99D00CD7F67"
+            BuildableName = "SwitfDemo1.app"
+            BlueprintName = "SwitfDemo1"
+            ReferencedContainer = "container:SwitfDemo1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
